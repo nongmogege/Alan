@@ -20,6 +20,8 @@
     // Put setup code here. This method is called before the invocation of each test method in the class.
     //初始化的代码，在测试方法调用之前调用
     self.vc  = [[ViewController alloc] init];
+    
+    self.vc.view.backgroundColor = [UIColor redColor];
 }
 
 - (void)tearDown {
